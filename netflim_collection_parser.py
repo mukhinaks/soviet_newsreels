@@ -43,7 +43,7 @@ def get_newsreel_issues(base_url, pages):
         
 daily_news_link = 'newsreels-daily-news-page-'
 base_url = netfilm_url + daily_news_link
-pages = 2
+pages = 89
 
 newsreel_issues = get_newsreel_issues(base_url, pages)
 
